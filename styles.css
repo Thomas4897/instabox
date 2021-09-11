@@ -107,10 +107,11 @@ img {
 
 .count {
 	font-weight: bolder;
+	padding-right: 4px;
 }
 
 .numberdesc {
-	padding-right: 60px;
+	padding-right: 40px;
 }
 
 .infobottom {
@@ -140,8 +141,13 @@ img {
 	font-weight: bold;
 }
 
+.line2 {
+	display: flex;
+	align-items: flex-end;
+}
+
 .heart {
-	height: 10px;
+	height: 20px;
 }
 
 a {
