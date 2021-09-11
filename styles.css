@@ -4,66 +4,43 @@ body {
 	height: 100%;
 }
 
-@media (max-width: 800px) {
-	body {
-		flex-direction: column;
-	}
-	.header {
-		flex-direction: column;
-	}
-	.categories {
-		flex-direction: column;
-	}
-}
-
 .parent {
-	padding: 10px;
+	height: 400px;
+	width: 1000px;
 	display: flex;
 	flex-direction: column;
+	background-color: rgb(250, 250, 250);
 }
 
 .header {
 	height: 200px;
-	padding: 10px;
+	padding-top: 30px;
 	margin-bottom: 5px;
 	display: flex;
-	flex: 0;
 }
 
 .icon {
-	height: 140px;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-right: 50px;
 	padding-bottom: 30px;
 	padding-left: 100px;
-	margin-right: 2px;
-	justify-content: right;
 }
 
 .logo {
 	height: 140px;
-	width: height;
 }
 
 .categories {
-	height: 150px;
-
-	padding-top: 5px;
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	flex: 0;
+	gap: 50px;
 }
 
 .profile {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	margin: 3px;
+	padding-top: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	flex: 1;
 }
 
 img {
@@ -80,48 +57,39 @@ img {
 	padding-left: 50px;
 	display: flex;
 	flex-direction: column;
-	flex: 1;
 }
 
 .infotop {
-	height: 50px;
+	height: 40px;
 	display: flex;
-	flex-direction: row;
-	flex: 0;
+	align-items: center;
+	align-content: center;
 }
 
 .infotop-1 {
-	height: 50px;
-	font-size: 20px;
+	font-size: 25px;
 	display: flex;
-	align-items: center;
-	flex: 0;
 }
 
 .infotop-2 {
-	height: 50px;
 	display: flex;
-	flex-flow: row;
-	align-items: flex-end;
-	flex: 0;
 }
 
 .checkmark {
 	height: 18px;
 	width: 18px;
+	padding-top: 33px;
 	padding-right: 15px;
-	padding-bottom: 5px;
-	padding-bottom: 15px;
 }
 
 .follow {
+	padding-top: 25px;
 	padding-right: 15px;
-	padding-bottom: 5px;
-	padding-bottom: 15px;
 }
 
 .followbtn {
-	background-color: white;
+	height: 25px;
+	background-color: transparent;
 	border-color: rgba(236, 233, 233, 0.938);
 	border-width: thin;
 	border-radius: 4px;
@@ -129,14 +97,12 @@ img {
 }
 
 .dots {
-	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .infomiddle {
 	height: 50px;
 	display: flex;
-	flex-flow: row;
-	flex: 0;
 }
 
 .count {
@@ -144,24 +110,18 @@ img {
 }
 
 .numberdesc {
-	padding-right: 80px;
-	padding-left: px;
+	padding-right: 60px;
 }
 
 .infobottom {
 	height: 95px;
 	display: flex;
 	flex-flow: column;
-	flex: 0;
 }
 
 .infobottom-3 {
-	height: 18px;
 	display: flex;
-	padding-top: 15px;
-	flex-flow: row;
-	align-items: flex-end;
-	flex: 0;
+	padding-top: 5px;
 	font-size: 10px;
 }
 
@@ -197,6 +157,11 @@ p {
 
 h1 {
 	font-weight: unset;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+div {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
