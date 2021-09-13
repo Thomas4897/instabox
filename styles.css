@@ -15,12 +15,10 @@ body {
 .header {
 	height: 200px;
 	padding-top: 30px;
-	margin-bottom: 5px;
 	display: flex;
 }
 
 .icon {
-	padding-top: 10px;
 	padding-right: 50px;
 	padding-bottom: 30px;
 	padding-left: 100px;
@@ -45,33 +43,21 @@ body {
 
 img {
 	height: 80px;
-	width: height;
-}
-
-.desc {
-	margin: 5px;
 }
 
 .infromation {
 	height: 200px;
 	padding-left: 50px;
-	display: flex;
-	flex-direction: column;
 }
 
 .infotop {
 	height: 40px;
 	display: flex;
 	align-items: center;
-	align-content: center;
 }
 
 .infotop-1 {
 	font-size: 25px;
-	display: flex;
-}
-
-.infotop-2 {
 	display: flex;
 }
 
@@ -139,11 +125,6 @@ img {
 .follower {
 	padding-right: 3px;
 	font-weight: bold;
-}
-
-.line2 {
-	display: flex;
-	align-items: flex-end;
 }
 
 .heart {
